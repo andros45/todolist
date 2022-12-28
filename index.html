@@ -12,6 +12,16 @@
 
     <p>Tryck på knappen för att ta dig vidare:</p>
     <button>Tryck här!</button>
+    <script>
+        let todoList = new TodoList();
 
+        let todo = new Todo();
+        todo.title = "Laundry";
+        todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
+
+        todoList.addTodoItem(todo);
+
+        todoList.printTitles();
+    </script>
 </body>
 </html>
