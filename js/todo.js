@@ -23,3 +23,13 @@ class TodoList {
     // To-be implemented
   }
 }
+
+let todoList = new TodoList();
+
+let todo = new Todo();
+todo.title = "Laundry";
+todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
+
+todoList.addTodoItem(todo);
+
+todoList.printTitles();
