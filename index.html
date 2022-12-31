@@ -4,24 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/todo.js"></script>
+    <script src="js/app.js" defer></script>
     <title>Todo</title>
 </head>
 <body>
     <h1>Todo</h1>
-
-    <p>Tryck på knappen för att ta dig vidare:</p>
-    <button>Tryck här!</button>
-    <script>
-        let todoList = new TodoList();
-
-        let todo = new Todo();
-        todo.title = "Laundry";
-        todo.content = "On monday at 15:00 I have to do laundry before parents arrive";
-
-        todoList.addTodoItem(todo);
-
-        todoList.printTitles();
-    </script>
 </body>
 </html>
